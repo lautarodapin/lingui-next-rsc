@@ -1,0 +1,18 @@
+{
+
+    catalogs: [
+        {
+            path: './locales/{locale}',
+            include: ['app'],
+        },
+    ],
+        locales: ['en', 'es'],
+            sourceLocale: 'en',
+                fallbackLocales: {
+        default: "en",
+    },
+
+    formatOptions: {
+        origins: false,
+    },
+}

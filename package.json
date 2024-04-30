@@ -1,0 +1,27 @@
+{
+    "name": "lingui-dev",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "extract": "lingui extract",
+        "compile": "lingui compile"
+    },
+    "dependencies": {
+        "@formatjs/intl": "^2.10.1",
+        "@lingui/core": "^4.10.0",
+        "@lingui/loader": "^4.10.0",
+        "@lingui/macro": "^4.10.0",
+        "@lingui/react": "^4.10.0",
+        "next": "14.2.3",
+        "react": "^18",
+        "react-dom": "^18"
+    },
+    "devDependencies": {
+        "@lingui/cli": "^4.10.0",
+        "@lingui/swc-plugin": "^4.0.7"
+    }
+}
