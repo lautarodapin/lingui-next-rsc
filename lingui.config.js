@@ -5,10 +5,10 @@ const config = {
             "include": ["app"],
         },
     ],
-    "locales": ["en-en", "es-es"],
-    "sourceLocale": "en-en",
+    "locales": ["en-us", "es-es"],
+    "sourceLocale": "en-us",
     "fallbackLocales": {
-        "default": "en-en",
+        "default": "en-us",
     },
 
     "formatOptions": {
